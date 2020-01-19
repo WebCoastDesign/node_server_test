@@ -20,4 +20,9 @@ app.get('/', (request, response) => {
   })
 })
 
+app.get('/fuck', (request, response) => {
+    console.log(request.url)
+    response.render('fuck')
+})
+
 app.listen(3000)

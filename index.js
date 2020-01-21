@@ -20,9 +20,9 @@ app.get('/', (request, response) => {
   })
 })
 
-app.get('/fuck', (request, response) => {
+app.get('/test', (request, response) => {
     console.log(request.url)
-    response.render('fuck')
+    response.render('test')
 })
 
 app.listen(3000)
